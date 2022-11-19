@@ -1,2 +1,2 @@
 # Bot-Virtual
-Criando um bot virtual nem bibliotecas externas com o python 
+Criando um bot virtual sem bibliotecas externas com o python 
