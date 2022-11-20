@@ -1,33 +1,33 @@
 
 
+
+def respondendo(ress,nome):
+		if ress==1:
+			print("Orlando Paulo de Hermogenes Filho")
+		elif ress==2:
+			print(f"Tenho 22 anos, {name},algum problema?")
+		elif ress == 3:
+			print(f"{nome},vai procurar um trouxa kkkkkkk")
+		
+		elif ress==4:
+			print("Quase no céu")
+		elif ress ==5:
+			print("Obrigado pela sua atenção") 
+		else:
+			print("Apenas 1,2,3, 4 ou 5")
+	
+		
+
 def assunto():
 	print("Olá,Seja bem-vindo(a) ao meu mundo")
-	name=input("Qual o seu nome? ")
-	print(f"{name} obrigado por chegar até aqui")
+	nome=input("Qual o seu nome? ")
+	print(f"{nome} obrigado por chegar até aqui")
 	idade=int(input("Qual a sua idade? "))
-	if idade < 18:
-		print("Vixee,você tá no leitinho ainda")
+	
 		
 	email=input("Digite seu  email ")
-		
-	resposta=input(f"{name} o que gostaria de saber sobre mim? \nDigite-1 para saber meu nome completo \nDigite-2 para saber minha idade \nDigite-3 para saber meu cpf \nDigite-4 para saber onde eu moro")
 	
-def respondendo(resposta,name):
-		if resposta ==1:
-			print("Orlando Paulo de Hermogenes Filho")
-		elif resposta ==2:
-			print(f"Tenho 22 anos, {name},algum problema?")
-		elif resposta == 3:
-			print(f"{name},vai procurar um trouxa kkkkkkk")
+	while True:
+		ress=input(f"{nome} o que gostaria de saber sobre mim? \n[1]- Para saber meu nome completo \n[2]- Para saber minha idade \n[3]- para saber meu cpf \n[4]- Para saber onde eu moro \n [5]- Para encerrar a conversa ")
+		break
 		
-		elif resposta==4:
-			print("Quase no céu")
-		
-
-		
-		
-
-
-assunto()
-respondendo(resposta,name)		
-	
